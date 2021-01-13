@@ -4,7 +4,7 @@ import s from './ContactForm.module.css';
 
 export default class ContactForm extends Component {
   static propTypes = {
-    onAddContact: PropTypes.func,
+    onAddContact: PropTypes.func.isRequired,
   };
 
   state = {
